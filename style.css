@@ -1,0 +1,81 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.right {
+    float: right;
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+
+}
+
+.niru {
+    float: right;
+    position: relative;
+    left: 400px;
+    bottom: 650px;
+}
+
+.rai {
+    float: right;
+    position: relative;
+    left: 300px;
+    bottom: 550px;
+}
+
+.zanu {
+    float: right;
+    position: relative;
+    left: 200px;
+    bottom: 450px;
+}
+
+body {
+    background-image: url("t.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bbb {
+    margin: auto;
+    width: fit-content;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.left {
+    float: left;
+}
+
+.box2 {
+    float: right;
+    height: 150px;
+    position: relative;
+    right: 0px;
+    bottom: 900px;
+}
+
+.box3 {
+    float: right;
+    height: 150px;
+    position: relative;
+    right: 0px;
+    bottom: 800px;
+
+}
